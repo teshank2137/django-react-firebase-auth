@@ -21,7 +21,6 @@ class FirebaseAuthentication(BaseAuthentication):
         token = auth_header.split(' ').pop()
         try:
             decoded_token = auth.verify_id_token(token)
-            pass
         except Exception:
             raise InvalidToken()
 
