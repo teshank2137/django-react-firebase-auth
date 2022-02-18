@@ -30,6 +30,12 @@ TokenID is nothing but a JWT token which is then decoded to authenticate the use
 
 To achieve authentication in our Django backend we have to extend BaseAuthentication class and write a simple middleware that decodes JWT and authenticates our user. Using this we can protect private routes in our backend.
 
+FirebaseAuthentication class resides in
+```
+server/core/firebase_auth/authentication.py 
+```
+
+
 We can then add our FirebaseAuthentication class as a default authentication class
 
 ```
