@@ -14,7 +14,9 @@ Oauth became so popular that people started using OAuth for authentication, whic
 That's where OpenID connect comes in.
 OpenID connect is on the top layer of oauth2.0 which provides authentication to users on the server side.
 
-<img src=""/>
+<img src="https://raw.githubusercontent.com/teshank2137/django-react-firebase-auth/master/oauth.JPG"/><br/>
+
+This is image was taken from a talk given by Nate Barbettini you can check it out [on Youtube](https://youtu.be/996OiexHze0)
 
 ---
 
